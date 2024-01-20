@@ -26,6 +26,7 @@ body {
     background-color: beige;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    align-items: center;
     gap: 40px;
 }
 #header #top-section #search {
@@ -51,6 +52,25 @@ body {
 }
 #header #top-section #profile {
     background-color: rgb(196, 188, 144);
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr;
+    align-items: center;
+    gap: 30px;
+}
+#header #top-section #profile img{
+    width: 20px;
+    width: 100%;
+}
+#header #top-section #profile img#cat-logo{
+    /* width: 50px; */
+    width: 100%;
+
+}
+#header #top-section #profile p{
+    font-size: 20px;
+    font-family: Roboto, monospace, sans-serif;
+    font-style: bold;
+    font-weight: 900;
 }
 
 
