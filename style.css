@@ -11,19 +11,20 @@ body {
     background-color: grey;
     display: grid;
     grid-template-columns: 15fr 85fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 10fr;
 }
 /* Start of Header Section */
 /* ------------------------------------------------------------ */
 #header {
     background-color: rgb(255, 255, 255);
     grid-column: 2;
-    grid-row: 1 / 2;
+    grid-row: 1;
 
     display: grid;
     /* grid-template-columns: ; */
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
 
 }
@@ -131,6 +132,7 @@ body {
     font-size: 20px;
     padding: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 /* ------------------------------------------------------------ */
 
