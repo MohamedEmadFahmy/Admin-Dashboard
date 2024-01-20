@@ -10,9 +10,11 @@ body {
     height: 100vh;
     background-color: grey;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 15fr 85fr;
     grid-template-rows: 1fr 4fr;
 }
+/* Start of Header Section */
+/* ------------------------------------------------------------ */
 #header {
     background-color: rgb(255, 255, 255);
     grid-column: 2;
@@ -74,24 +76,6 @@ body {
     font-style: bold;
     font-weight: 900;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #header #bottom-section {
     /* background-color: rgb(156, 156, 156); */
     display: grid;
@@ -128,9 +112,6 @@ body {
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     font-size: 26px;
 }
-
-
-
 #header #bottom-section #right-area{
     /* background-color: rgb(19, 3, 255); */
     display: grid;
@@ -151,29 +132,96 @@ body {
     padding: 10px;
     font-weight: bold;
 }
+/* ------------------------------------------------------------ */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Start of Sidebar Section */
+/* ------------------------------------------------------------ */
 #sidebar{
     background-color: rgb(87, 176, 228);
     grid-column: 1;
     grid-row: 1 / 3;
+
+    display: grid;
+    grid-template-rows: 1fr 4fr 4fr;
+    padding: 20px;
+    gap: 50px;
 }
+#sidebar #title {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    height: fit-content;
+    gap: 10px;
+}
+#sidebar #title img {
+    /* display: inline; */
+    grid-column: 1;
+    width: 100%;
+}
+#sidebar #title p {
+    /* display: inline; */
+    grid-column: 2;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    /* height: fit-content; */
+}
+#sidebar #first-section , #sidebar #second-section{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    height: fit-content;
+    gap: 20px;
+    padding-left: 20px;
+}
+#sidebar #second-section {
+    grid-template-rows: repeat(3, 1fr);
+}
+#sidebar .list-item {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start of main-content Section */
+/* ------------------------------------------------------------ */
 #main-content {
     background-color: rgb(179, 179, 179);
     grid-column: 2;
     grid-row: 2;
 }
+/* ------------------------------------------------------------ */
