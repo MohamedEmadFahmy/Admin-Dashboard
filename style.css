@@ -93,17 +93,17 @@ body {
 
 
 #header #bottom-section {
-    background-color: rgb(156, 156, 156);
+    /* background-color: rgb(156, 156, 156); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 250px;
+    padding-top: 20px;
 }
 #header #bottom-section #left-area {
-    background-color: rgb(255, 1, 1);
+    /* background-color: rgb(255, 1, 1); */
 
     display: grid;
     grid-template-columns: 1fr 7fr;
-    padding-top: 20px;
     align-items: center;
     gap: 20px;
 }
@@ -132,7 +132,24 @@ body {
 
 
 #header #bottom-section #right-area{
-    background-color: rgb(19, 3, 255);
+    /* background-color: rgb(19, 3, 255); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}
+#header #bottom-section #right-area .header-btn{
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 
