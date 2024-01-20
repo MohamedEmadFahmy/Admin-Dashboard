@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Roboto, monospace, sans-serif;
 }
 
 body {
@@ -19,20 +20,22 @@ body {
 
     display: grid;
     /* grid-template-columns: ; */
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 
 }
 #header #top-section {
-    background-color: beige;
+    /* background-color: beige; */
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
     gap: 40px;
 }
 #header #top-section #search {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: grid;
-    grid-template-columns: 1fr 50fr;
+    grid-template-columns: 1fr 65fr;
     align-items: center;
     gap: 10px;
 }
@@ -42,6 +45,7 @@ body {
     grid-column: 1;
 }
 #header #top-section #search input {
+    background-color: rgb(216, 222, 231);
     grid-column: 2;
     height: 30px;
     width: 670px;
@@ -51,24 +55,22 @@ body {
     text-indent: 10px;
 }
 #header #top-section #profile {
-    background-color: rgb(196, 188, 144);
+    /* background-color: rgb(196, 188, 144); */
     display: grid;
     grid-template-columns: 1fr 2fr 8fr;
     align-items: center;
     gap: 30px;
 }
 #header #top-section #profile img{
-    width: 20px;
+    /* width: 20px; */
     width: 100%;
 }
 #header #top-section #profile img#cat-logo{
     /* width: 50px; */
     width: 100%;
-
 }
 #header #top-section #profile p{
     font-size: 20px;
-    font-family: Roboto, monospace, sans-serif;
     font-style: bold;
     font-weight: 900;
 }
@@ -92,7 +94,49 @@ body {
 
 #header #bottom-section {
     background-color: rgb(156, 156, 156);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 250px;
 }
+#header #bottom-section #left-area {
+    background-color: rgb(255, 1, 1);
+
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding-top: 20px;
+    align-items: center;
+    gap: 20px;
+}
+#header #bottom-section #left-area img{
+    width: 100%;
+    grid-column: 1;
+}
+
+#header #bottom-section #left-area #texts{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    font-weight: 700;
+}
+#header #bottom-section #left-area #texts #top-text{
+    grid-row: 1;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#header #bottom-section #left-area #texts #bottom-text{
+    grid-row: 2;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+
+
+#header #bottom-section #right-area{
+    background-color: rgb(19, 3, 255);
+}
+
+
+
 
 
 
