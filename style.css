@@ -31,14 +31,23 @@ body {
 #header #top-section #search {
     background-color: cadetblue;
     display: grid;
-
+    grid-template-columns: 1fr 50fr;
+    align-items: center;
+    gap: 10px;
 }
 
 #header #top-section #search img {
-    width: 20px;
+    width: 100%;
+    grid-column: 1;
 }
 #header #top-section #search input {
-    width: 400px;
+    grid-column: 2;
+    height: 30px;
+    width: 670px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
 }
 #header #top-section #profile {
     background-color: rgb(196, 188, 144);
