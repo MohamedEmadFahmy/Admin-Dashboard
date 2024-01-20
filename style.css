@@ -16,7 +16,67 @@ body {
     background-color: rgb(255, 255, 255);
     grid-column: 2;
     grid-row: 1 / 2;
+
+    display: grid;
+    /* grid-template-columns: ; */
+    padding: 20px;
+
 }
+#header #top-section {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+}
+#header #top-section #search {
+    background-color: cadetblue;
+    display: grid;
+
+}
+
+#header #top-section #search img {
+    width: 20px;
+}
+#header #top-section #search input {
+    width: 400px;
+}
+#header #top-section #profile {
+    background-color: rgb(196, 188, 144);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header #bottom-section {
+    background-color: rgb(156, 156, 156);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #sidebar{
     background-color: rgb(87, 176, 228);
     grid-column: 1;
